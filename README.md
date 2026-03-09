@@ -1,18 +1,14 @@
 
-# Simulador Financeiro Imobiliário Avançado
+Simulador WM Imóveis
 
+Interface profissional com logo.
 Inclui:
 
-- Sistema PRICE
-- Amortização extra mensal
-- Uso automático do FGTS a cada 2 anos
-- Gráfico do saldo devedor
-- Linha do tempo do financiamento
-- Simulação de obra (INCC)
-- Valorização do imóvel
-- Comparação aluguel vs financiamento
-- Tabela de amortização
+- Simulação financeira PRICE
+- Estratégias de uso do FGTS (1,2,3 anos)
+- Projeção de FGTS baseado no salário
+- Gráficos financeiros
 - Exportar PDF
 - Exportar Excel
 
-Pode ser publicado no GitHub Pages.
+Pronto para subir no GitHub ou hospedar.
