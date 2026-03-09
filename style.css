@@ -1,0 +1,40 @@
+
+body{
+font-family: Arial;
+margin:40px;
+background:#f3f3f3;
+}
+
+.form{
+background:white;
+padding:20px;
+border-radius:8px;
+width:420px;
+}
+
+input{
+width:100%;
+margin-bottom:10px;
+padding:6px;
+}
+
+button{
+padding:10px;
+margin-top:10px;
+}
+
+table{
+border-collapse:collapse;
+width:100%;
+background:white;
+}
+
+td,th{
+border:1px solid #ddd;
+padding:6px;
+text-align:center;
+}
+
+@media print{
+button{display:none;}
+}
