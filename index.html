@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulador Financeiro | WM Imóveis</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header class="topo">
+<h1>Simulador de Planejamento Financeiro</h1>
+<p>Estratégia inteligente com FGTS</p>
+</header>
+
+<div class="layout">
+
+<div class="card">
+
+<h2>Dados do Financiamento</h2>
+
+<label>Valor do imóvel</label>
+<input id="valorImovel" type="text" placeholder="232.000">
+
+<label>Entrada</label>
+<input id="entrada" type="text" placeholder="40.000">
+
+<label>Prazo (meses)</label>
+<input id="prazo" type="number" value="360">
+
+<label>Amortização extra mensal</label>
+<input id="extra" type="text" placeholder="0">
+
+<h2>FGTS</h2>
+
+<label>Saldo atual FGTS</label>
+<input id="fgtsAtual" type="text" placeholder="20.000">
+
+<label>Salário mensal</label>
+<input id="salario" type="text" placeholder="6.000">
+
+<label>Uso do FGTS</label>
+<select id="freqFGTS">
+<option value="12">1 ano</option>
+<option value="24">2 anos</option>
+<option value="36">3 anos</option>
+</select>
+
+</div>
+
+<div class="dashboard">
+
+<div class="panel">
+<h3>Valor Financiado</h3>
+<div id="pFinanciado">R$ 0</div>
+</div>
+
+<div class="panel">
+<h3>Parcela Estimada</h3>
+<div id="pParcela">R$ 0</div>
+</div>
+
+<div class="panel">
+<h3>Prazo Final</h3>
+<div id="pPrazo">0</div>
+</div>
+
+<div class="panel destaque">
+<h3>Redução de Prazo</h3>
+<div id="pReducao">0</div>
+</div>
+
+</div>
+
+<div class="graficos">
+<canvas id="graficoSaldo"></canvas>
+<canvas id="graficoPrazo"></canvas>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
